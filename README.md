@@ -10,8 +10,6 @@ The goal of this project is to build a reliable classifier that acts like a **di
 By inputting a mushroom’s physical attributes (cap shape, color, odor, etc.), the system predicts its classification with **high accuracy**.  
 This project demonstrates a practical application of machine learning for **public safety**.
 
-**License:** Google
-
 ---
 
 ## ⚙️ How It Works
@@ -35,7 +33,8 @@ The model follows a standard ML pipeline:
 ---
 
 ## 📊 Dataset
-- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Mushroom)  
+- **File:** `mushroom.csv`  
+- **Source:** [UCI Machine Learning Repository – Mushroom Dataset](https://archive.ics.uci.edu/ml/datasets/Mushroom)  
 - **Samples:** 8,124 mushrooms  
 - **Features:** 22 categorical attributes  
 - **Challenge:** Since all features are categorical, preprocessing is essential.  
@@ -45,7 +44,7 @@ The model follows a standard ML pipeline:
 ## ✨ Key Features
 - **Data Preprocessing** → Handles missing values smoothly.  
 - **Robust Encoding** → Converts categorical data into machine-readable format.  
-- **High Accuracy** → Decision Tree model achieves **100% accuracy**.  
+- **High Accuracy** → Decision Tree model achieves **100% accuracy** on test data.  
 - **Prediction Ready** → Classifies new mushroom data instantly.  
 
 ---
@@ -60,10 +59,8 @@ The model follows a standard ML pipeline:
 
 ## 🚀 Getting Started
 
-### 1. Installation
-
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/lokeshreddyayyaswamy/Machine_Classification.git
+cd Machine_Classification
